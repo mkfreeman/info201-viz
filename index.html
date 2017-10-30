@@ -16642,7 +16642,7 @@
         }
 
         Reveal.initialize({
-            controls: true, // enabled controls
+            controls: false, // lock controls
             progress: false,
             history: true,
             mouseWheel: false,
@@ -16654,7 +16654,7 @@
             center: SLConfig.deck.center || false,
             loop: SLConfig.deck.should_loop || false,
             rtl: SLConfig.deck.rtl || false,
-            keyboard: true,
+            keyboard: false, // lock keyboard
             transition: 'none',
             backgroundTransition: SLConfig.deck.background_transition,
             multiplex: {
